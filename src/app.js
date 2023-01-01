@@ -23,4 +23,4 @@ app.use('/movies',moviesRoutes);
 app.use('/genres',genresRoutes);
 app.use('/actors',actorsRoutes);
 
-app.listen('3001', () => console.log('Servidor corriendo en el puerto 3000'));
+app.listen('3000', () => console.log('Servidor corriendo en el puerto 3000'));
